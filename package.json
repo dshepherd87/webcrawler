@@ -1,0 +1,30 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "Bootdev webcrawler project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshepherd87/webcrawler.git"
+  },
+  "author": "dshepherd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dshepherd87/webcrawler/issues"
+  },
+  "homepage": "https://github.com/dshepherd87/webcrawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
